@@ -1,0 +1,32 @@
+# main에서 branch 생성
+- $ git branch <브랜치이름>
+
+# branch 이동
+- $ git checkout master
+
+# 원격 브랜치 목록 보기
+- $ git branch -r
+
+# 로컬 브랜치 목록 보기
+- $ git branch -a
+
+# branch에서 remote 서버로 변경된 내용에 대해 push
+(변경사항 원격 서버에 업로드)
+$ git push origin master	
+
+#커밋을 원격 서버에 업로드
+- $ git push < remote > <브랜치이름>	
+
+# 다시 main으로 이동
+- $ git checkout main
+
+# 커밋을 원격서버에 업로드
+- $ git push -u < remote > <브랜치이름>
+
+# git 서버에서 최신 코드 받아와서 mearge하기
+- $ git pull
+
+# git 서버에서 최신 코드 받아오기
+- $ git fetch
+
+추가적으로 local과 remote 서버에 대해 정리하면 좋을거 같음
