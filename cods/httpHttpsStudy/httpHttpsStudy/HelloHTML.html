@@ -2,9 +2,23 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Hello</title>
+    <title> 웹 이해하기 </title>
 </head>
-<body>
-    <div>웹 서버는 웹 브라우저와 같은 클라이언트 소프트웨어의 요청에 응답하여 네트워크를 통해 정보를 보냅니다.</div>
+<body bgcolor="#f6e2fd" >
+    <div> 웹 서버는 웹 브라우저와 같은 클라이언트 소프트웨어의 요청에 응답하여 네트워크를 통해 정보를 보냅니다. </div>
+    
+    <div>
+        <h3> 전송 방식 </h3>
+        <form action="http://localhost/GetWeb" method="get">
+            <label for="getSend"> Get 전송방식 </label> &nabla; <input type="submit" value="Get 방식" onclick="GetWeb.aspx" > <br>
+        </form>
+
+        <form action="http://localhost/PostWeb" method="post">
+            <label for="postSend"> Post 전송방식 </label> &nabla; <input type="submit" value="Post 방식" onclick="PostWeb.aspx" >
+        </form>
+        
+    </div>
+      
+    
 </body>
 </html>
