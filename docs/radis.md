@@ -5,6 +5,7 @@ RADIS
 - 레디스(Radis)는 Remote Dictionary Server의 약자로서, <b>'키-값'</b> 구조의 비정형 데이터를 저장하고 관리하기 위한
   오픈 소스 기반의 비관계형 데이터베이스 관리시스템(DBMS)이다.
 - 모든 데이터를 메모리로 불러와서 처리하는 메모리 기반 DBMS 이다.
+- 기본 포트 번호 : 6379
 
 ### Radis 특징
 - 기본적으로 Key/Value Store 이다.
@@ -25,8 +26,29 @@ RADIS
 
 - Radis의 대표적인 특징은 Single threaded라는 점이다. 
   즉, 한번에 딱 하나의 명령이면 실행할 수 있다는 뜻이다.
+
+### Redis의 장점
+- 리스트, 배열 데이터를 처리하는데 유용
+- 리스트 형 데이터 입력 & 삭제가 MySQL에 비해 10배 정도 빠름
+- 영속적인 데이터 보존
+
+
+---
+#### [추가 내용]
+## NoSQL
+- No only SQL
+- SQL만을 사용하지 않는 DBMS, 비관계형 데이터베이스
+ (데이터 관계를 정의하지 않고 사용하는 디비)
+
+    |   NoSQL  |  SQL |
+    |----------|------|
+    |Collection|Table |
+    |Document  |Row   |
+    |Key,Field |Column|
+
+
 ---
 #### [참고]
 - [레디스](https://ko.wikipedia.org/wiki/%EB%A0%88%EB%94%94%EC%8A%A4)
 - [레디스(Radis)란? 무엇인가.](https://lygggg.github.io/blog/Redis/)     
-
+- [DB 레디스(Redis)](https://velog.io/@ayoung0073/database-redis)
