@@ -52,3 +52,4 @@ RADIS
 - [레디스](https://ko.wikipedia.org/wiki/%EB%A0%88%EB%94%94%EC%8A%A4)
 - [레디스(Radis)란? 무엇인가.](https://lygggg.github.io/blog/Redis/)     
 - [DB 레디스(Redis)](https://velog.io/@ayoung0073/database-redis)
+- [window 10 redis 설치. (2020-03)](https://goni9071.tistory.com/473) 
