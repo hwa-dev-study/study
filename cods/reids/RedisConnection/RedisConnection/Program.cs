@@ -32,7 +32,7 @@ namespace RedisConnection
             var devicesCount = 10000;
             var rnd = new Random();
             var cache = RedisConnectorHelper.Connection.GetDatabase();
-            
+
             for (int i = 1; i < devicesCount; i++)
             {
                 var value = rnd.Next(0, 10000);
