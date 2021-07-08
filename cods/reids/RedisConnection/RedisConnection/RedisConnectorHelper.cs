@@ -7,7 +7,6 @@ namespace RedisConnection
 {
     public class RedisConnectorHelper
     {
-
         static RedisConnectorHelper()
         {
             RedisConnectorHelper.lazyConnection = new Lazy<ConnectionMultiplexer>(() =>
